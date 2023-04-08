@@ -1,0 +1,27 @@
+***************************************
+*** ###easy### TPC-C Load Generator ***
+***************************************
+option h with value '127.0.0.1'
+option S (socket) with value '/tmp/mysql.sock'
+option d with value 'tpcc'
+option u with value 'root'
+option p with value 'password'
+option w with value '20'
+option c with value '8'
+option r with value '10'
+option l with value '180'
+<Parameters>
+     [server]: 127.0.0.1
+     [port]: 3306
+     [DBname]: tpcc
+       [user]: root
+       [pass]: password
+  [warehouse]: 20
+ [connection]: 8
+     [rampup]: 10 (sec.)
+    [measure]: 180 (sec.)
+
+RAMP-UP TIME.(10 sec.)
+
+MEASURING START.
+
